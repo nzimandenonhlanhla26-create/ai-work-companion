@@ -5,7 +5,7 @@ import { Field, ToolWorkspace } from "@/components/ToolWorkspace";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { SelectBox } from "./email";
+import { SelectBox } from "@/components/SelectBox";
 import { useToolRun } from "@/hooks/useToolRun";
 
 export const Route = createFileRoute("/research")({
