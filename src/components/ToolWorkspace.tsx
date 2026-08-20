@@ -43,7 +43,7 @@ export function ToolWorkspace({
   emptyHint: string;
 }) {
   return (
-    <div className="grid grid-cols-1 gap-px bg-border lg:grid-cols-[minmax(0,26rem)_1fr]">
+    <div className="grid min-h-[calc(100vh-3.5rem)] grid-cols-1 gap-px bg-border lg:grid-cols-[minmax(0,26rem)_1fr]">
       <section className="bg-background px-6 py-8 sm:px-8">
         <div className="mx-auto max-w-md">
           <h1 className="text-2xl font-semibold tracking-tight">{heading}</h1>
